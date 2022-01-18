@@ -71,6 +71,16 @@ img {
   text-decoration: none;
 }
 .review {
+  @media screen and (min-width: 768px) {
+    padding-top: 121px;
+    padding-left: 74px;
+    padding-right: 74px;
+  }
+  @media screen and (min-width: 1200px) {
+    padding-top: 123px;
+    padding-left: 178px;
+    padding-right: 176px;
+  }
   padding-top: 80px;
   padding-left: 20px;
   padding-right: 20px;
@@ -148,6 +158,14 @@ img {
 }
 
 .review__section__text {
+  @media screen and (min-width: 768px) {
+    font-size: 14px;
+    line-height: 2.16;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: 16px;
+    line-height: 1.86;
+  }
   margin-top: 0.8em;
   font-family: DM Sans;
   font-style: normal;
@@ -160,6 +178,24 @@ img {
   background-repeat: no-repeat;
 }
 .wrap {
+  @media screen and (min-width: 768px) {
+    background: repeating-linear-gradient(
+      to bottom,
+      #fafafa,
+      #fafafa 29.24px,
+      #e1e1e1 30.24px,
+      #e1e1e1 25px
+    );
+  }
+  @media screen and (min-width: 1200px) {
+    background: repeating-linear-gradient(
+      to bottom,
+      #fafafa,
+      #fafafa 28.76px,
+      #e1e1e1 29.76px,
+      #e1e1e1 25px
+    );
+  }
   background: repeating-linear-gradient(
     to bottom,
     #fafafa,
